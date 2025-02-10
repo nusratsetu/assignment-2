@@ -35,7 +35,7 @@
     /* color: #FEA301; */
 }
 .nav-button{
-    padding: 10px 30px;
+    padding: 15px 50px;
     border-radius: 12px;
     background-color: #FEA301;
     color: white;
@@ -57,8 +57,130 @@
 .brand-logo{
     width: 62px;
     height: 62px;
+    margin-top: 10px;
 }
 
 .brand-name{
     align-items: center;
 }
+.menubar{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+hr{
+    border: 1px solid orange;
+    margin-top: 20px;
+}
+
+/* banner stles */
+.banner{
+   max-width: 1158px;
+   align-items: center;
+   justify-content: space-between;
+   margin: 0 auto;
+}
+.color1{
+  color: #FEA301;
+}
+.color2{
+    color: skyblue;
+}
+
+.banner-kid{
+    max-width: 100%;
+    height: auto;
+}
+
+.banner-text{
+    max-width: 640px;
+    /* height: 330px; */
+    
+}
+
+.banner-para{
+    margin-top: 20px;
+}
+
+.enroll-btn{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive for smaller device */
+@media screen and (max-width: 576px){
+
+.navbar{
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 15px;
+    }
+.brand-title{
+ display: none;
+}
+.nav-links{
+ display: none;
+}
+.nav-button{
+    display: none;
+}
+
+.banner{
+    flex-direction: column-reverse;
+    max-width: 357px;
+}
+.banner-kid{
+    margin: 20px auto;
+}
+.banner-title{
+    text-align: center;
+    
+}
+.banner-para{
+    text-align: center;
+}
+.enroll-btn{
+    display: block;
+    margin: 15px auto;
+}
+
+}
+
+/* larger device */
+@media screen and (min-width:576px) and (max-width:≥992px){
+    
+    .menubar{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+}
+
