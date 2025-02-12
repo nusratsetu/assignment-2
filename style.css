@@ -206,9 +206,25 @@ hr{
     font-size: 1rem;
 }
 
-.story-title{
-    text-align: center;
-    margin: 30px 0;
+.arrow-btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+
+.arrow-btn-1{
+    width: 50px;
+}
+.arrow-btn-2{
+    height: 48px;
+}
+
+
+.story-titles{
+font-size: 1rem;
+
+    
 }
 
 .story-img{
@@ -229,30 +245,128 @@ hr{
 
 .card-container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    
     max-width: 1160px;
     align-items: center;
     justify-items: center;
-    
+    gap: 15px;
 }
 
 
 
+.story-card1{
+    max-width: 540px;
+    max-height: 630px;
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: 1px solid #ddd; 
+    overflow: hidden; 
+}
+
 .story-card{
+    max-width: 290px;
+    max-height: 300px;
     background-color: #ffffff;
     border-radius: 15px;
     border: 1px solid #ddd;
     overflow: hidden;
+    
 }
 
-.footer{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 30px;
+
+.story-btn-1{
+    background-color: #05D4DF;
+    color: white;
+    border-radius: 47px;
+    border: none;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: -100px;
+}
+.story-btn-2{
+    background-color: #95B226;
+    color: white;
+    border-radius: 47px;
+    border: none;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: -100px;
+    
+}
+.story-btn-3{
+    background-color: #5D58F0;
+    color: white;
+    border-radius: 47px;
+    border: none;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: -100px;
+    
+}
+
+.story-titles{
+    font-size: 1.2rem;
+    padding: 15px;
+}
+
+
+
+.story-description{
+    color: #808080;
+    padding: 15px;
+}
+
+
+
+footer{
     background-color: #01ACFD;
     color: #ffffff;
+    padding: 20px 0;
+    
+    
 }
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    padding: 50px 70px;
+    align-items: center;
+    justify-items: center;
+    max-width: 1160px;
+    
+}
+
+.footer-content{
+    flex: 1;
+    margin: 0 10px;
+}
+.footer-content h2, .footer-content h3{
+    
+    margin: 0  0 10px;
+    font-size: 1.5rem;
+}
+
+.footer-content p{
+font-size: 1.2rem;
+}
+
+.footer-content ul{
+    list-style: none;
+   
+
+}
+
+.footer-content ul li{
+    font-size: 1.2rem;
+}
+
+
+
+
 
  
     
