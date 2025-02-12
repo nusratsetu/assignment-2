@@ -210,6 +210,7 @@ hr{
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+    gap: 7px;
     
 }
 
@@ -222,9 +223,10 @@ hr{
 
 
 .story-titles{
-font-size: 1rem;
-
-    
+font-size: 1rem;   
+}
+.story-title{
+    margin-bottom: 50px;
 }
 
 .story-img{
@@ -232,6 +234,9 @@ font-size: 1rem;
     height: auto;
 }
 
+.story-img1{
+    max-width: fit-content;
+}
 .story-section{
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.73), rgba(254, 163, 1, 0.20)) ,url(assets/bg.png);
     background-size: 100%;
@@ -239,23 +244,16 @@ font-size: 1rem;
     align-items: center;
     
 }
-
-
-
-
 .card-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: auto;
     
     max-width: 1160px;
     align-items: center;
     justify-items: center;
     gap: 15px;
 }
-
-
-
 .story-card1{
     max-width: 540px;
     max-height: 630px;
@@ -263,21 +261,19 @@ font-size: 1rem;
     grid-row: span 2;
     background-color: #ffffff;
     border-radius: 15px;
-    border: 1px solid #ddd; 
+    
     overflow: hidden; 
+    max-width: 100%;
 }
-
 .story-card{
     max-width: 290px;
     max-height: 300px;
     background-color: #ffffff;
     border-radius: 15px;
-    border: 1px solid #ddd;
+    
     overflow: hidden;
     
 }
-
-
 .story-btn-1{
     background-color: #05D4DF;
     color: white;
@@ -307,26 +303,21 @@ font-size: 1rem;
     margin-top: -100px;
     
 }
-
 .story-titles{
     font-size: 1.2rem;
     padding: 15px;
 }
-
-
-
 .story-description{
     color: #808080;
-    padding: 15px;
+    padding: 10px 15px;
+    /* margin-bottom: 25px; */
 }
-
-
-
 footer{
     background-color: #01ACFD;
     color: #ffffff;
     padding: 20px 0;
     
+    justify-items: center;
     
 }
 .footer-container{
